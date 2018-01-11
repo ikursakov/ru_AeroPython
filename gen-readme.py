@@ -4,6 +4,7 @@
 
 from glob import glob
 from urllib.parse import quote
+
 import re
 
 header = u'''
@@ -22,15 +23,17 @@ The materials are distributed publicly and openly under a Creative Commons Attri
 format_item = '* [{name}]({url})'.format
 bb_url = 'github.com/ikursakov/ru_AeroPython/tree/master/{}'.format
 
+
 def notebooks():
-    return glob('lessons/*.ipynb')
+    ### Костыль для винды
+    return  [nb.replace('\\','/') for nb in glob('lessons/*.ipynb')]
 
 def lesson_id(filename):
     return int(re.search('[0-9]+', filename).group())
 
 def lesson_name(filename):
     print(filename)
-    return filename.split('\\')[1].split('.')[0].split('_')[2]
+    return filename.split(r'/')[1].split('.')[0].split('_')[2]
 
 def nb_url(filename):
     raw_url = bb_url(quote(quote(filename)))

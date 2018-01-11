@@ -8,4 +8,4 @@ The materials are distributed publicly and openly under a Creative Commons Attri
 
 ### List of notebooks:
 
-* [QuickPythonIntro](http://nbviewer.ipython.org/urls/github.com/ikursakov/ru_AeroPython/tree/master/lessons%255C00_Lesson00_QuickPythonIntro.ipynb)
+* [QuickPythonIntro](http://nbviewer.ipython.org/urls/github.com/ikursakov/ru_AeroPython/tree/master/lessons/00_Lesson00_QuickPythonIntro.ipynb)
