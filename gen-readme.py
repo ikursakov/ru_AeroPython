@@ -1,10 +1,12 @@
+# -*- coding: utf-8 -*-
+
 #!/usr/bin/env python2
 
 from glob import glob
 from urllib.parse import quote
 import re
 
-header = '''
+header = u'''
 ## Аэро-гидродинамика и Python
 
 Перевод на русский язык курса "Aerodynamics-Hydrodynamics" (MAE 6226) профессора Лорены Барбы. Оригинальный курс читался в George Washington University в 2014-2015.
@@ -18,7 +20,7 @@ The materials are distributed publicly and openly under a Creative Commons Attri
 
 
 format_item = '* [{name}]({url})'.format
-bb_url = 'github.com/barbagroup/AeroPython/tree/master/{}'.format
+bb_url = 'github.com/ikursakov/ru_AeroPython/tree/master/{}'.format
 
 def notebooks():
     return glob('lessons/*.ipynb')
@@ -43,7 +45,7 @@ def write_readme(nblist, fo):
 
 def main():
     nblist = sorted(notebooks(), key=lesson_id)
-    with open('README.md', 'w') as fo:
+    with open('README.md', 'w', encoding='utf-8') as fo:
         write_readme(nblist, fo)
 
 if __name__ == '__main__':
