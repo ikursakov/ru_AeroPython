@@ -1,0 +1,20 @@
+% Default to the notebook output style
+((* set cell_style = 'base.tplx' *))
+% Inherit from the specified cell style.
+((* extends cell_style *))
+
+((* block packages *))
+((( super() ))) % load all other packages
+
+\usepackage[T1,T2A]{fontenc}
+
+\usepackage[english, russian]{babel}
+\usepackage{mathtools}
+\usepackage{hyperref}
+
+((* endblock packages *))
+
+((* block docclass *))
+\documentclass{article}
+((* endblock docclass *))
+((* block maketitle *))((* endblock maketitle *))
