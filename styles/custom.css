@@ -1,4 +1,4 @@
-<link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400' rel='stylesheet' type='text/css'>
 <style>
@@ -44,7 +44,7 @@ div.cell.code_cell {
 
 
 div.text_cell_render{
-    font-family: 'Alegreya Sans' sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     line-height: 140%;
     font-size: 125%;
     font-weight: 400;
@@ -66,7 +66,7 @@ div.text_cell_render{
     display: block;
 }	
 .text_cell_render h2 {
-    font-family: 'Fenix', serif;
+    font-family: 'PT Serif', serif;
     font-size: 22pt;
     line-height: 100%;
     margin-bottom: 0.1em;
@@ -75,7 +75,7 @@ div.text_cell_render{
 }	
 
 .text_cell_render h3 {
-    font-family: 'Fenix', serif;
+    font-family: 'PT Serif', serif;
     margin-top:12px;
 	font-size: 16pt;
     margin-bottom: 3px;
@@ -83,7 +83,7 @@ div.text_cell_render{
 }
 
 .text_cell_render h4 {    /*Use this for captions*/
-    font-family: 'Fenix', serif;
+    font-family: 'PT Serif', serif;
     font-size: 2pt;
     text-align: center;
     margin-top: 0em;
@@ -113,8 +113,8 @@ div.text_cell_render{
 }
 
     .CodeMirror{
-            font-family: "Source Code Pro";
-			font-size: 90%;
+            font-family: "Consolas";
+			font-size: 110%;
     }
 /*    .prompt{
         display: None;
