@@ -84,7 +84,7 @@ div.text_cell_render{
 
 .text_cell_render h4 {    /*Use this for captions*/
     font-family: 'PT Serif', serif;
-    font-size: 2pt;
+    font-size: 12pt;
     text-align: center;
     margin-top: 0em;
     margin-bottom: 2em;
