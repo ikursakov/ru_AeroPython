@@ -1,5 +1,5 @@
 % Default to the notebook output style
-((* set cell_style = 'base.tplx' *))
+((* set cell_style = 'style_ipython.tplx' *))
 % Inherit from the specified cell style.
 ((* extends cell_style *))
 
